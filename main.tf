@@ -88,6 +88,8 @@ resource "aws_api_gateway_stage" "default" {
     format          = file("accessLogFormat.json")
   }
 
+  xray_tracing_enabled = var.xray_tracing_enabled
+
   lifecycle {
     ignore_changes = [deployment_id]
   }

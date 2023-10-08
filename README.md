@@ -24,7 +24,9 @@ terraform init
 terraform apply -auto-approve
 ```
 
+The stage should have everything enabled:
 
+<img src=".assets/apigw-logging.png" />
 
 
 [1]: https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html#set-up-access-logging-permissions

@@ -13,3 +13,7 @@ variable "execution_logs_data_trace_enabled" {
 variable "execution_logs_metrics_enabled" {
   type = bool
 }
+
+variable "xray_tracing_enabled" {
+  type = bool
+}
