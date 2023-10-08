@@ -1,6 +1,6 @@
 # AWS API Gateway - Monitoring and Logging
 
-Following the [set up logging] documentation for API Gateway, there are two two types of API logging in CloudWatch: execution logging and access logging.
+Following the [set up logging][1] documentation for API Gateway, there are two two types of API logging in CloudWatch: execution logging and access logging.
 
 #### Execution logging
 
