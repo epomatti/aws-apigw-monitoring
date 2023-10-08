@@ -2,8 +2,8 @@
 
 Following the [set up logging][1] documentation, there are two types of logging for API Gateway:
 
-- Execution logging
-- Access logging
+- **Execution logging** - CloudWatch Logs group managed by the API Gateway.
+- **Access logging** - Either a CloudWatch Logs group or Kinesis Firehose destination that you manage, but you can choose only a single destination.
 
 Check the documentation for details.
 
