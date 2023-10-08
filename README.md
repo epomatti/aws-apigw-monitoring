@@ -28,5 +28,15 @@ The stage should have everything enabled:
 
 <img src=".assets/apigw-logging.png" />
 
+## Logging
+
+We can see that the execution logs can be extremely detailed:
+
+<img src=".assets/apigw-executionlog.png" />
+
+Access logs are more specific, although you can configure it via the [`$context`] variables.
+
+<img src=".assets/apigw-accesslogs.png" />
 
 [1]: https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html#set-up-access-logging-permissions
+[2]: https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html#context-variable-reference
