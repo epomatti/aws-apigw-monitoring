@@ -30,11 +30,17 @@ The stage should have everything enabled:
 
 ## Logging
 
-We can see that the execution logs can be extremely detailed:
+We can see that the execution logs can be extremely detailed.
+
+With Detained Metrics enabled, additional performance data will be generated to CloudWatch metrics.
+
+> Each method will generate these metrics: API calls, Latency, Integration latency, 400 errors, and 500 errors.
 
 <img src=".assets/apigw-executionlog.png" />
 
 Access logs are more specific, although you can configure it via the [`$context`] variables.
+
+Enabling access logs can used by developers to identify access patterns in combination with CloudWatch Logs Insights without the need of parsing logs.
 
 <img src=".assets/apigw-accesslogs.png" />
 
